@@ -1,2 +1,11 @@
 # Credit-Risk-Prediction-MLP-vs.-1D-Tiny-CNN-
-Predict borrower default to support lending decisions on 128,396 loans (5.4% default).
+Predicts borrower default to support lending decisions using neural models. Trained on **128,396** loans with a **5.4%** default rate; includes end-to-end preprocessing, model comparison, and threshold tuning for operational trade-offs.
+
+**What’s inside**
+- Data prep: cleaning, encoding, standardization; stratified train/val/test to handle class imbalance.
+- Models: TensorFlow/Keras **MLP** and **1D Tiny-CNN** with regularization & early stopping; selection by ROC-AUC.
+- Evaluation: ROC/PR curves, confusion matrices, and business-mode cut-offs.
+
+**Results (test)**
+- **MLP ROC-AUC 0.804** (selected); **1D Tiny-CNN AUC 0.700**.
+- Operating points: **Recall 94.5% @ thr=0.30**; **F1-optimal P 19.1%, R 41.9% @ thr=0.721**.
