@@ -11,3 +11,6 @@ Predicts borrower default to support lending decisions using neural models. Trai
 - Operating points: **Recall 94.5% @ thr=0.30**; **F1-optimal P 19.1%, R 41.9% @ thr=0.721**.
 
 Multilayer perceptron (MLP):
+https://github.com/shaffy-dev/Credit-Risk-Prediction-MLP-vs.-1D-Tiny-CNN-/blob/d482675ec6a320420eb60fb9777815501de095c0/MLP.ipynb
+
+1D Tiny CNN:
