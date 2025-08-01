@@ -9,3 +9,5 @@ Predicts borrower default to support lending decisions using neural models. Trai
 **Results (test)**
 - **MLP ROC-AUC 0.804** (selected); **1D Tiny-CNN AUC 0.700**.
 - Operating points: **Recall 94.5% @ thr=0.30**; **F1-optimal P 19.1%, R 41.9% @ thr=0.721**.
+
+Multilayer perceptron (MLP):
