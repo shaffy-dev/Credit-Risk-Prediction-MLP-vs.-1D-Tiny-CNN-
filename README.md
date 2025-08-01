@@ -1,2 +1,3 @@
 # Credit-Risk-Prediction-MLP-vs.-1D-Tiny-CNN-
 Predict borrower default to support lending decisions on 128,396 loans (5.4% default).
+MLP.ipynb
